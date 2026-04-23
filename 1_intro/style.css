@@ -55,14 +55,26 @@ h1{
 	border-radius: 10px;
 	position: relative;
 	height: 100%;
+	
 }
-.banner p{
+.text h2{
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+ 	font-size: 40px;
+    font-family: "Edu NSW ACT Cursive", cursive;
+}
+.text p{
+
+	padding-top: 40px;
+}
+.banner .text{
 	font-family: "Raleway", sans-serif;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: aliceblue;
+	font-size: 22px;
 }
 .imagem_pai{
 	width: 40%;
@@ -72,6 +84,7 @@ h1{
 	display: grid;
 	
 }
+
 .imagem_text {
     display: flex;
     /* padding-top: 60px; */
@@ -84,11 +97,20 @@ h1{
 .imagem_text p {
     font-family: "Raleway", sans-serif;
     padding:  0 50px ;
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
-    /* Adicione estas duas linhas: */
     flex: 1; 
-    width: 50%; 
+}
+.imagem_text h2 {
+ color: rgb(170, 99, 99);
+ padding:  0 50px ;
+ font-family: "Edu NSW ACT Cursive", cursive;
+ font-size: 25px;
+}
+
+.text_center{
+	text-align: center;
+	align-content: center;
 }
 
 .imagem_text img {
@@ -172,6 +194,8 @@ h1{
 	margin: auto;
 	display: flex;
 	align-content: center;
+	border-radius: 20px;
+	img{border-radius: 0 20px 20px 0px}
 }
 .contato input{
 	display: block;
@@ -184,6 +208,7 @@ h1{
     flex-direction: column;
     align-content: center;
 	line-height: 1.6;
+	border-radius: 30px;
 }
 .contato-formulario h3, label{
 	font-family: "Raleway", sans-serif;
@@ -191,7 +216,9 @@ h1{
 
 .contato-formulario input{
 	height: 22px;
-	border-radius: 2px;
+	border-radius: 5px;
+	padding: 12px;
+	border: 1px solid rgb(151, 151, 151);
 }
 
 .contato-formulario button{
@@ -206,5 +233,59 @@ h1{
 	font-weight: 500;
 	letter-spacing: 1px;
 	background-color: #c1884d;
+	
 }
 
+.site-footer {
+  background-color: #c1884d;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  margin-bottom: 20px;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  color: #ffffff; 
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  padding: 0;
+}
+
+.footer-column a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #66605a;
+  background-color: #575757;
+  font-size: 0.8rem;
+	color: #efeff0;
+}
+
+.footer-bottom  footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer a{
+	text-decoration: none;
+	color: #cfcfcf;
+}
