@@ -48,7 +48,6 @@ h1{
 	background-repeat: no-repeat;
 	height: 400px;
 	background-position: right bottom;
-
 }
 .banner-shadow{
 	background: rgba(0, 0, 0, 0.4);
@@ -82,7 +81,7 @@ h1{
 	gap: 10px;
 	padding-top: 40px;
 	display: grid;
-	
+	border-radius: 20px;
 }
 
 .imagem_text {
@@ -92,6 +91,8 @@ h1{
 	
 	box-shadow: 4px 4px #e2e2e2a1;
 	border: #c1884d 0.5px solid;
+	border-radius: 20px;
+
 }
 
 .imagem_text p {
@@ -101,11 +102,15 @@ h1{
     text-align: justify;
     flex: 1; 
 }
+
+.imagem_text img {
+    border-radius: 0 20px 20px 0;
+}
 .imagem_text h2 {
- color: rgb(170, 99, 99);
- padding:  0 50px ;
- font-family: "Edu NSW ACT Cursive", cursive;
- font-size: 25px;
+	color: rgb(170, 99, 99);
+	padding:  0 50px ;
+	font-family: "Edu NSW ACT Cursive", cursive;
+	font-size: 25px;
 }
 
 .text_center{
